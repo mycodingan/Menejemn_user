@@ -40,7 +40,7 @@
 
 
 
-                    <div class="navbar navbar-expand-lg navbar-light">
+                    <div class="navbar navbar-expand-lg navbar-light" style="border-radius: 10px    ">
                         <div class="text-center d-lg-none w-100">
                             <button type="button" class="navbar-toggler dropdown-toggle" data-toggle="collapse" data-target="#navbar-footer">
                                 <i class="icon-unfold mr-2"></i>

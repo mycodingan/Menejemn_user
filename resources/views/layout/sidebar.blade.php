@@ -1,12 +1,12 @@
 <link rel="stylesheet" href="boxicons.min.css">
 <script src="https://unpkg.com/boxicons@2.1.3/dist/boxicons.js"></script>
 <div class="page-content">
-    <div class="sidebar sidebar-dark sidebar-main sidebar-expand-md">
+    <div class="sidebar sidebar-dark sidebar-main sidebar-expand-md" style="border-radius: 2px 40px 40px 2px">
         <div class="sidebar-mobile-toggler text-center">
             <a href="#" class="sidebar-mobile-main-toggle">
                 <i class="icon-arrow-left8"></i>
             </a>
-            Navigation
+            Manejement User
             <a href="#" class="sidebar-mobile-expand">
                 <i class="icon-screen-full"></i>
                 <i class="icon-screen-normal"></i>

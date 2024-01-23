@@ -9,7 +9,7 @@
         <button class="btn mt-48"><a href="{{ route('berita') }}">Berita</a>
     </div>
 
-    <div class="card-body">
+    <div class="card-body" style="border-radius: 10px">
         <div class="mb-4">
             @yield('content')
         </div>
