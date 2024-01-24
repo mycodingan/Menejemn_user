@@ -67,9 +67,9 @@ class UserController extends Controller
             'catatan_user' => 'required',
             'password_user' => 'required',
         ]);
-
+        
         $imagePath = $request->file('foto_user')->store('uploads/images', 'public');
-
+        
         $validateData['foto_user'] = $imagePath;
 
         UserData::create($validateData);
@@ -86,7 +86,7 @@ class UserController extends Controller
     public function edit($id)
     {
         $user = UserData::findOrFail($id);
-        return view('user.edit', compact('user'));
+        return view('user.edit', compact('user'));  
     }
 
     public function update(Request $request, $id)

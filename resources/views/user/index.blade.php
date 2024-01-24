@@ -61,8 +61,8 @@
 
 </style>
 
-<div class="container" style="border-radius: 10px">
-    <h2 class="mt-4 mb-4">User List</h2>
+<div class="container " style="border-radius: 10px">
+    <h2 class="mt-4 mb-4 ">User List</h2>
     <form class="form" method="get" action="{{ route('user.index') }}">
         <div class="form-group w-100 mb-3">
             <label for="search" class="d-block mr-2">Pencarian</label>
