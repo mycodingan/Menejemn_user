@@ -501,3 +501,4 @@ fi
 
 # Run Docker Compose with the defined arguments...
 "${DOCKER_COMPOSE[@]}" "${ARGS[@]}"
+ 
